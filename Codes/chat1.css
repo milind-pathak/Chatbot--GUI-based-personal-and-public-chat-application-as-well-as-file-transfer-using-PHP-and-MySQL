@@ -1,0 +1,39 @@
+.chat .users, .chat .chatbox{
+ display:inline-block;
+ vertical-align:top;
+ height:400px;
+ padding:0px 15px;
+ position:relative;
+}
+.chat .users{
+ background:rgb(180, 230, 255);
+ color:rgb(7, 31, 83);
+ width:98px;
+ overflow-y:auto;
+}
+.chat .chatbox{
+ background:rgb(194, 231, 240);
+ color:black;
+ margin-left:4px;
+ width:330px;
+}
+.chat .chatbox .msgs, .chat .chatbox .msgs1{
+ border-top:1px solid black;
+ border-bottom:1px solid black;
+ overflow-y:auto;
+ height:300px;
+}
+.chat .chatbox #msg_form{
+ padding-top:1.5px;
+}
+.chat .error{color:red;}
+.chat .success{color:green;}
+.chat .msgs .msg, .chat .users .user{border-bottom:1px solid black;padding:4px 0px;white-space:pre-line;word-break:break-word;}
+
+ .chat .chatbox1{
+ float:right;
+ vertical-align:top;
+ height:350px;
+ padding:0px 15px;
+ position:relative;
+}
